@@ -20,4 +20,4 @@ These are the cool things that went into the website. Kudos to the devs of them!
 
 ## Hosting
 ### Vercel
-- 
+- https://dsc-ssgmce.vercel.app

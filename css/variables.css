@@ -1,0 +1,18 @@
+:root {
+  --primary: #4154f1;
+  --primary-active: #0011ad;
+  --text: #444444;
+  --heading: #012970;
+  --link: #013289;
+  --white: #ffffff;
+  --sm: 576px;
+  --md: 768px;
+  --lg: 992px;
+  --xl: 1200px;
+  --xxl: 1400px;
+  --fs-sm: 1rem;
+  --fs-md: 1.25rem;
+  --fs-lg: 1.5rem;
+  --fs-xl: 2rem;
+  --fs-xxl: 3rem;
+}

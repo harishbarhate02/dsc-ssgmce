@@ -1,0 +1,42 @@
+@import url("./variables.css");
+
+.container {
+  margin: 0 auto;
+  max-width: var(--xxl);
+}
+
+.flex {
+  display: flex;
+}
+
+.row {
+  flex-flow: row;
+}
+
+.f-ai-c {
+  align-items: center;
+}
+
+.f-jc-c {
+  justify-content: center;
+}
+
+.f-jc-sb {
+  justify-content: space-between;
+}
+
+.btn {
+  text-align: center;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.primary {
+  background-color: var(--primary);
+  color: white;
+}
+
+.btn.primary:hover {
+  background-color: var(--primary-active);
+}

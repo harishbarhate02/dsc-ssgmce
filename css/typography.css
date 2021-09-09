@@ -1,0 +1,37 @@
+@import url("./variables.css");
+body {
+  font-family: 'Nunito', 'sans-serif';
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, a{
+  font-weight: 700;
+  color: var(--heading);
+}
+
+h1 {
+  font-size: var(--fs-xxl);
+}
+
+h2 {
+  font-size: var(--fs-xl);
+}
+
+h3 {
+  font-size: var(--fs-lg);
+}
+
+h4 {
+  font-size: var(--fs-md);
+}
+
+h5 {
+  font-size: var(--fs-sm);
+}
+
+.nav-link {
+  font-size: var(--fs-md);
+}
