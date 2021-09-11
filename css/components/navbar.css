@@ -1,0 +1,112 @@
+.header {
+  /* TODO: Make Navbar Sticky */
+}
+
+.logo {
+  padding: 0.25rem 0;
+}
+
+.logo-image {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.logo-text {
+  margin-left: 0.5rem;
+}
+
+/* ? CSS Variables don't work in media queries */
+
+/* Links */
+
+.navbar-wrapper {
+  padding: 0 1.25rem;
+}
+
+.logo-text {
+  margin-top: 0.75rem;
+}
+
+.links {
+  margin-top: 1rem;
+}
+
+.nav-link {
+  transition: all 100ms ease-out;
+  color: var(--heading);
+}
+
+.nav-link:hover {
+  color: var(--primary);
+}
+
+.links > li:not(:last-child) {
+  margin-right: 1.75rem;
+}
+
+.hamburger {
+  display: none;
+}
+
+.line {
+  width: 1.5rem;
+  height: 3px;
+  background-color: var(--text);
+  margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 892px) {
+  .hamburger {
+    position: relative;
+    margin-top: 1.5rem;
+    display: block;
+  }
+  nav {
+    position: absolute;
+    background-color: var(--res-nav-bg);
+    inset: 0;
+    display: none;
+    place-items: center;
+    padding-bottom: 5rem;
+  }
+  .links {
+    display: block;
+  }
+  .links a {
+    color: var(--white);
+    transition: all 0.5s ease;
+  }
+  .links .btn {
+    display: none;
+  }
+  .links a:hover {
+    color: var(--primary);
+  }
+  .links li {
+    margin-top: 1.5rem;
+  }
+  nav.active {
+    display: grid;
+  }
+  .hamburger.active {
+    z-index: 999;
+  }
+  .hamburger.active > .line {
+    background-color: var(--white);
+  }
+  .hamburger.active > .line1 {
+    position: absolute;
+    right: 0.25rem;
+    top: 0.5rem;
+    transform: rotate(45deg);
+  }
+  .hamburger.active > .line2 {
+    display: none;
+  }
+  .hamburger.active > .line3 {
+    position: absolute;
+    right: 0.25rem;
+    top: 0.5rem;
+    transform: rotate(-45deg);
+  }
+}

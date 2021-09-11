@@ -3,94 +3,9 @@
 @import url("./variables.css");
 @import url("./utility.css");
 
-/** Navbar Styling **/
+/* Importing Navbar */
+@import url("./components/navbar.css");
 
-/* Logo */
 .landing {
   background-image: url("../assets/images/hero-bg.png");
-}
-
-.header {
-  /* TODO: Make Navbar Sticky */
-}
-
-.logo {
-  padding: 0.25rem 0;
-}
-
-.logo-image {
-  width: 2.5rem;
-  height: 2.5rem;
-}
-
-.logo-text {
-  margin-left: 0.5rem;
-}
-
-/* ? CSS Variables don't work in media queries */
-
-/* Links */
-
-.navbar-wrapper {
-  padding: 0 1.25rem;
-}
-
-.logo-text {
-  margin-top: 0.75rem;
-}
-
-.links {
-  margin-top: 1rem;
-}
-
-.nav-link {
-  transition: all 100ms ease-out;
-}
-
-.nav-link:hover {
-  color: var(--primary);
-}
-
-.links > li:not(:last-child) {
-  margin-right: 1.75rem;
-}
-
-.hamburger {
-  display: none;
-}
-
-.line {
-  width: 1.5rem;
-  height: 3px;
-  background-color: #444444;
-  margin-bottom: 5px;
-}
-
-@media only screen and (max-width: 892px) {
-  .hamburger {
-    position: relative;
-    margin-top: 1.5rem;
-    display: block;
-  }
-  nav {
-    display: none;
-  }
-  .hamburger.active {
-    z-index: 999;
-  }
-  .hamburger.active > .line1 {
-    position: absolute;
-    right: 0.25rem;
-    top: 0.5rem;
-    transform: rotate(45deg);
-  }
-  .hamburger.active > .line2 {
-    display: none;
-  }
-  .hamburger.active > .line3 {
-    position: absolute;
-    right: 0.25rem;
-    top: 0.5rem;
-    transform: rotate(-45deg);
-  }
 }

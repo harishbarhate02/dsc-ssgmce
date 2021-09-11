@@ -1,15 +1,20 @@
 @import url("./variables.css");
 body {
-  font-family: 'Nunito', 'sans-serif';
+  font-family: "Nunito", "sans-serif";
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, a{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
   font-weight: 700;
-  color: var(--heading);
 }
 
 h1 {
@@ -34,4 +39,16 @@ h5 {
 
 .nav-link {
   font-size: var(--fs-md);
+}
+
+@media only screen and (max-width: 892px) {
+  .links a {
+    font-size: var(--fs-xxl);
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .links a {
+    font-size: var(--fs-xl);
+  }
 }

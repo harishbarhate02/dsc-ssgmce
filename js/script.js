@@ -1,10 +1,18 @@
+const openNavPanel = () => {
+  gsap.from("nav.active", { height: 0, duration: 1 });
+};
+
 const handleHamburger = () => {
   const hamburger = document.querySelector(".hamburger");
-  const navLinks = document.querySelector(".links");
-
+  const navPanel = document.querySelector("nav");
+  let panelOpen = false;
   hamburger.addEventListener("click", () => {
     hamburger.classList.toggle("active");
-    navLinks.classList.toggle("active");
+    navPanel.classList.toggle("active");
+    if (panelOpen == false) {
+      openNavPanel();
+    }
+    panelOpen = !panelOpen;
   });
 };
 
