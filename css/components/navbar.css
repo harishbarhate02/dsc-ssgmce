@@ -1,8 +1,8 @@
 .header {
   /* TODO: Make Navbar Sticky */
+  padding-top: 1.25rem;
 }
-
-.logo {
+c .logo {
   padding: 0.25rem 0;
 }
 
@@ -58,7 +58,7 @@
 @media only screen and (max-width: 892px) {
   .hamburger {
     position: relative;
-    margin-top: 1.5rem;
+    margin-top: 1.25rem;
     display: block;
   }
   nav {
@@ -68,6 +68,7 @@
     display: none;
     place-items: center;
     padding-bottom: 5rem;
+    z-index: 998;
   }
   .links {
     display: block;

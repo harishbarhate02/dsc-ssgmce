@@ -5,7 +5,10 @@
 
 /* Importing Navbar */
 @import url("./components/navbar.css");
+/* Importing Hero */
+@import url("./components/hero.css");
 
 .landing {
   background-image: url("../assets/images/hero-bg.png");
+  overflow-x: hidden;
 }

@@ -15,5 +15,7 @@ const handleHamburger = () => {
     panelOpen = !panelOpen;
   });
 };
-
+AOS.init({
+  duration: 1000,
+});
 handleHamburger();

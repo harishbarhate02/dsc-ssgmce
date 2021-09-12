@@ -42,6 +42,9 @@ h5 {
 }
 
 @media only screen and (max-width: 892px) {
+  h1 {
+    font-size: var(--fs-xl);
+  }
   .links a {
     font-size: var(--fs-xxl);
   }
