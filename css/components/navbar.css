@@ -1,6 +1,12 @@
 .header {
   /* TODO: Make Navbar Sticky */
   padding-top: 1.25rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  background-color: #fff;
 }
 c .logo {
   padding: 0.25rem 0;

@@ -39,7 +39,7 @@
   .hero {
     text-align: center;
     flex-direction: column;
-    padding: 2.5rem 0.5rem;
+    padding: 10rem 1rem;
   }
   .hero > div {
     margin: 0;
