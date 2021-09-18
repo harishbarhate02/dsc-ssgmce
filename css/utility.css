@@ -5,6 +5,10 @@
   max-width: var(--xxl);
 }
 
+.seperator-head {
+  color: var(--primary);
+}
+
 .flex {
   display: flex;
 }

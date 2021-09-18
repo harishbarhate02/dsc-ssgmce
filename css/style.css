@@ -8,6 +8,7 @@
 /* Importing Hero */
 @import url("./components/hero.css");
 @import url("./components/about-us.css");
+@import url("./components/counters.css");
 
 .landing {
   background-image: url("../assets/images/hero-bg.png");
