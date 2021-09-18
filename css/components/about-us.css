@@ -3,13 +3,10 @@
   text-align: center;
 }
 
-.about-us h5 {
-  color: var(--primary);
-}
-
-.about-us h2,
+.about-us h1,
 .about-us h3 {
   color: var(--heading);
+  line-height: 1;
 }
 
 .info-cards {
@@ -18,8 +15,8 @@
 }
 
 .info-card {
-  max-width: 20rem;
-  padding: 1rem 1rem;
+  max-width: 25rem;
+  padding: 1rem 3rem;
   margin: 4rem 2rem;
   transition: all 1s ease;
 }
@@ -46,7 +43,7 @@
     align-items: center;
   }
   .info-card {
-    padding-bottom: 0;
+    padding-bottom: 1rem;
     margin-bottom: 0;
   }
 }
