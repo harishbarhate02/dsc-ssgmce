@@ -6,8 +6,9 @@
   left: 0;
   right: 0;
   z-index: 2;
-  background-color: #fff;
+  background-color: white;
 }
+
 c .logo {
   padding: 0.25rem 0;
 }
@@ -94,6 +95,7 @@ c .logo {
   }
   nav.active {
     display: grid;
+    height: 100vh;
   }
   .hamburger.active {
     z-index: 999;

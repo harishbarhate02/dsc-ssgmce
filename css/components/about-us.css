@@ -1,0 +1,52 @@
+.about-us {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.about-us h5 {
+  color: var(--primary);
+}
+
+.about-us h2,
+.about-us h3 {
+  color: var(--heading);
+}
+
+.info-cards {
+  display: flex;
+  justify-content: center;
+}
+
+.info-card {
+  max-width: 20rem;
+  padding: 1rem 1rem;
+  margin: 4rem 2rem;
+  transition: all 1s ease;
+}
+
+.info-card:hover {
+  box-shadow: 0px 0 10px rgb(1 41 112 / 15%);
+}
+
+.info-card > img {
+  max-width: 100%;
+}
+
+.info-card > h3 {
+  margin: 0.5rem;
+  line-height: 1;
+}
+
+@media only screen and (max-width: 892px) {
+  .info-cards {
+    flex-direction: column;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .info-card {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+}
