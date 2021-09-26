@@ -19,3 +19,13 @@ AOS.init({
   duration: 1000,
 });
 handleHamburger();
+document.addEventListener("DOMContentLoaded", function () {
+  new Splide("#image-slider", {
+    cover: true,
+    heightRatio: 0.4,
+    autoplay: true,
+    duration: 1500,
+    rewind: true,
+    pauseOnHover: false,
+  }).mount();
+});

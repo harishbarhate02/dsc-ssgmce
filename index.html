@@ -8,10 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="" />
   <meta name="keywords" content="" />
+  <!-- Include Splide CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
   <!-- Include Local CSS -->
   <link rel="stylesheet" href="css/style.css" />
   <!-- Include GSAP -->
   <script src="vendor/gsap.min.js" defer></script>
+  <!-- Splide JS -->
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
   <!-- Link AOS -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -49,11 +53,11 @@
           <nav class="links-wrapper">
             <ul class="links flex">
               <li><a href="#" class="nav-link">Home</a></li>
-              <li><a href="#" class="nav-link">About Us</a></li>
+              <li><a href="#about-us" class="nav-link">About Us</a></li>
               <li><a href="#" class="nav-link">Initiatives</a></li>
               <li><a href="#" class="nav-link">Team</a></li>
               <li><a href="#" class="nav-link">Contact</a></li>
-              <li><a href="#" class="btn primary">Follow Us</a></li>
+              <!-- <li><a href="#" class="btn primary">Follow Us</a></li> -->
             </ul>
           </nav>
           <div class="hamburger">
@@ -78,25 +82,25 @@
       <!--  * Navbar End * -->
     </div>
   </section>
-  <section class="about-us">
+  <section class="about-us" id="about-us">
     <div class="container">
-      <h5 class="seperator-head">ABOUT US</h5>
-      <h1 class="seperator-title">Skills we try to inculcate</h1>
+      <h5 class="seperator-head" data-aos="fade-up">ABOUT US</h5>
+      <h1 class="seperator-title" data-aos="fade-up">Skills we try to inculcate</h1>
       <div class="info-cards">
-        <div class="info-card">
+        <div class="info-card" data-aos="fade-up" data-aos-delay="400">
           <img src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/values-1.png"
             alt="open source contribution">
           <h3>Open Source</h3>
           <p>We encourage and help beginners contribute to the open source software, as it is quite significant these
             days.</p>
         </div>
-        <div class="info-card">
+        <div class="info-card" data-aos="fade-up" data-aos-delay="800">
           <img src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/values-2.png"
             alt="open source contribution">
           <h3>Projects</h3>
           <p>We brainstorm real life problems and build projects to solve them using the modern tech stack.</p>
         </div>
-        <div class="info-card">
+        <div class="info-card" data-aos="fade-up" data-aos-delay="1200">
           <img src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/values-3.png"
             alt="open source contribution">
           <h3>Programming</h3>
@@ -108,28 +112,28 @@
   <section class="counters">
     <div class="container">
       <div class="counter-cards">
-        <div class="counter-card">
+        <div class="counter-card" data-aos="fade-up">
           <i class="bi bi-emoji-smile i-primary"></i>
           <div class="counter-card-info">
             <h2 data-purecounter-start="0" data-purecounter-end="55" class="purecounter">0</h2>
             <p>Members</p>
           </div>
         </div>
-        <div class="counter-card">
+        <div class="counter-card" data-aos="fade-up" data-aos-delay="400">
           <i class="bi bi-play-btn-fill i-orange"></i>
           <div class="counter-card-info">
             <h2 data-purecounter-start="0" data-purecounter-end="10" class="purecounter"></h2>
             <p>Workshops</p>
           </div>
         </div>
-        <div class="counter-card">
+        <div class="counter-card" data-aos="fade-up" data-aos-delay="800">
           <i class="bi bi-people-fill i-green"></i>
           <div class="counter-card-info">
             <h2 data-purecounter-start="0" data-purecounter-end="25" class="purecounter">25</h2>
             <p>Projects</p>
           </div>
         </div>
-        <div class="counter-card">
+        <div class="counter-card" data-aos="fade-up" data-aos-delay="1200">
           <i class="bi bi-card-image i-red"></i>
           <div class="counter-card-info">
             <h2 data-purecounter-start="0" data-purecounter-end="43" class="purecounter">43</h2>
@@ -138,6 +142,112 @@
         </div>
       </div>
     </div>
+    </div>
+  </section>
+  <section class="blog" id="blog">
+    <div class="container">
+      <h5 class="seperator-head">BLOG</h5>
+      <h1 class="seperator-title">Recent posts from out blog</h1>
+      <div class="blog-cards">
+        <div class="blog-card" data-aos="fade-up">
+          <img src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/blog/blog-1.jpg" alt="a man working">
+          <div class="blog-info">
+            <p>Tue, September 15</p>
+            <h3>React Hooks and how to use them in right way.</h3>
+            <a href="#">Read More</a>
+            <i class="bi bi-arrow-right"></i>
+          </div>
+        </div>
+        <div class="blog-card" data-aos="fade-up" data-aos-delay="400">
+          <img src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/blog/blog-2.jpg" alt="a man working">
+          <div class="blog-info">
+            <p>Tue, September 15</p>
+            <h3>React Hooks and how to use them in right way.</h3>
+            <a href="#">Read More</a>
+            <i class="bi bi-arrow-right"></i>
+          </div>
+        </div>
+        <div class="blog-card" data-aos="fade-up" data-aos-delay="800">
+          <img src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/blog/blog-3.jpg" alt="a man working">
+          <div class="blog-info">
+            <p>Tue, September 15</p>
+            <h3>React Hooks and how to use them in right way.</h3>
+            <a href="#">Read More</a>
+            <i class="bi bi-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="slides">
+    <div class="container">
+      <h5 class="seperator-head">Recent Events</h5>
+      <h1 class="seperator-title">Workshops and Events we <br> conducted recently</h1>
+      <div id="image-slider" class="splide" data-aos="fade-up">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <img src="https://cdn.codechef.com/download/banner/1631861745.png">
+            </li>
+            <li class="splide__slide">
+              <img src="https://cdn.codechef.com/download/banner/1632101520.png">
+            </li>
+            <li class="splide__slide">
+              <img src="https://cdn.codechef.com/download/banner/1632101163.png">
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact-us">
+    <h5 class="seperator-head">Contact Us</h5>
+    <h1 class="seperator-title">Get in touch with us</h1>
+    <div class="contact-us-wrapper">
+      <div class="info-wrapper">
+        <div class="info-address">
+          <h3>Address</h3>
+          <p>Shri Sant Gajanan Maharaj College of Engineering,
+            <br>
+            Shegaon-444203, Dist. Buldana (M.S.), India
+          </p>
+        </div>
+        <div class="info-email">
+          <h3>Email</h3>
+          <p>loremipsum@dolor.emet</p>
+        </div>
+        <div class="info-social">
+          <h3>Socials</h3>
+          <a href="https://www.instagram.com/dsc_ssgmce/"><i class="bi bi-instagram"></i>Instagram</a>
+          <a href="https://www.linkedin.com/company/dsc-ssgmce/"><i class="bi bi-linkedin"></i>LinkedIn</a>
+          <a><i class="bi bi-facebook"></i>Facebook</a>
+          <a><i class="bi bi-discord"></i>Discord</a>
+          <a><i class="bi bi-twitter"></i>Twitter</a>
+        </div>
+      </div>
+      <div class="form-wrapper">
+        <form action="">
+          <div class="input-name">
+            <label for="full-name">Name</label>
+            <br>
+            <input type="text" name="full-name" id="full-name" required />
+          </div>
+          <div class="input-email">
+            <label for="email">E-mail</label>
+            <br>
+            <input type="email" name="email" id="email" required />
+          </div>
+          <div class="input-message">
+            <label for="message">Message</label>
+            <br>
+            <textarea name="message" id="message" cols="21" rows="5" required></textarea>
+            <br>
+          </div>
+          <div class="submit">
+            <input type="submit" value="Submit" class="btn primary">
+          </div>
+        </form>
+      </div>
     </div>
   </section>
 </body>

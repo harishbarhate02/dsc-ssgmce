@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 2.5rem;
+  padding: 0 3rem;
 }
 
 .counter-card h2 {
@@ -20,12 +20,12 @@
   flex: 1;
   box-shadow: 0px 0 10px rgb(1 41 112 / 15%);
   padding: 1rem 0.5rem;
-  margin: 1rem 1rem;
+  margin: 1rem 1.5rem;
 }
 
 .counter-card i {
   transform: scale(3);
-  padding-top: 0.25rem;
+  padding-top: 0.1rem;
 }
 
 .i-primary {

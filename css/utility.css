@@ -9,6 +9,11 @@
   color: var(--primary);
 }
 
+.seperator-title {
+  color: var(--heading);
+  line-height: 1.25;
+}
+
 .flex {
   display: flex;
 }

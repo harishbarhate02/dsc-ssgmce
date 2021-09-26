@@ -1,0 +1,13 @@
+.slides {
+  margin: 8rem 0 2rem 0;
+  text-align: center;
+}
+
+.splide {
+  margin-top: 2rem;
+}
+
+.slides img {
+  width: 100%;
+  height: auto;
+}

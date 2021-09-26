@@ -2,13 +2,15 @@
 @import url("./typography.css");
 @import url("./variables.css");
 @import url("./utility.css");
-
+@import url("./components/contact-us.css");
 /* Importing Navbar */
 @import url("./components/navbar.css");
 /* Importing Hero */
 @import url("./components/hero.css");
 @import url("./components/about-us.css");
 @import url("./components/counters.css");
+@import url("./components/blog.css");
+@import url("./components/slides.css");
 
 .landing {
   background-image: url("../assets/images/hero-bg.png");
