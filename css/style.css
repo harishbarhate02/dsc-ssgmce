@@ -17,3 +17,8 @@
   background-image: url("../assets/images/hero-bg.png");
   overflow-x: hidden;
 }
+
+footer {
+  text-align: center;
+  color: var(--primary);
+}
