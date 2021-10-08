@@ -11,6 +11,7 @@
 @import url("./components/counters.css");
 @import url("./components/blog.css");
 @import url("./components/slides.css");
+@import url("./components/modal.css");
 
 .landing {
   background-image: url("../assets/images/hero-bg.png");

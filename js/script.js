@@ -29,3 +29,15 @@ document.addEventListener("DOMContentLoaded", function () {
     pauseOnHover: false,
   }).mount();
 });
+
+const modal = document.querySelector(".modal");
+const closeModal = document.querySelector(".close-modal");
+const openModal = document.querySelector("#open-modal");
+
+openModal.addEventListener('click', () => {
+  modal.style.display = "block";  
+})
+
+closeModal.addEventListener("click", () => {
+  modal.style.display = "none";
+});

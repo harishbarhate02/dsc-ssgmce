@@ -54,10 +54,9 @@
             <ul class="links flex">
               <li><a href="#" class="nav-link">Home</a></li>
               <li><a href="#about-us" class="nav-link">About Us</a></li>
-              <li><a href="#" class="nav-link">Initiatives</a></li>
-              <li><a href="#" class="nav-link">Team</a></li>
-              <li><a href="#" class="nav-link">Contact</a></li>
-              <!-- <li><a href="#" class="btn primary">Follow Us</a></li> -->
+              <li><a href="#initiatives" class="nav-link">Initiatives</a></li>
+              <li><a href="#blog" class="nav-link">Blog</a></li>
+              <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
           </nav>
           <div class="hamburger">
@@ -72,7 +71,7 @@
           <h1 data-aos="fade-up">We are a local community of students and developers.</h1>
           <p data-aos="fade-up" data-aos-delay="400">We help students learn and grow technically through peer learning
             and various events. </p>
-          <a href="#" class="primary btn" data-aos="fade-up" data-aos-delay="600">About Us<i
+          <a href="#" class="primary btn" id="open-modal" data-aos="fade-up" data-aos-delay="600">Follow Us<i
               class="bi bi-arrow-right"></i></a>
         </div>
         <div class="right-hero" data-aos="zoom-out" data-aos-delay="200">
@@ -80,6 +79,20 @@
         </div>
       </div>
       <!--  * Navbar End * -->
+    </div>
+  </section>
+  <section class="modal">
+    <div class="modal-content">
+      <h1>Follow us on Social Media platforms</h1>
+      <div class="social-badges">
+        <a href="#"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt=""></a>
+        <a href="https://www.linkedin.com/company/dsc-ssgmce/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt=""></a>
+        <a href="https://www.instagram.com/dsc396/?igshid=1qhnmq8u9txm"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt=""></a>
+        <a href="#"><img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" alt=""></a>
+        <a href="#"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt=""></a>
+        <a href="#"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt=""></a>
+      </div>
+      <button class="primary btn close-modal">Close</button>
     </div>
   </section>
   <section class="about-us" id="about-us">
@@ -144,6 +157,27 @@
     </div>
     </div>
   </section>
+  <section class="slides" id="initiatives">
+    <div class="container">
+      <h5 class="seperator-head">Recent Events</h5>
+      <h1 class="seperator-title">Workshops and Events we <br> conducted recently</h1>
+      <div id="image-slider" class="splide" data-aos="fade-up">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <img src="https://picsum.photos/300/700">
+            </li>
+            <li class="splide__slide">
+              <img src="https://picsum.photos/300/700">
+            </li>
+            <li class="splide__slide">
+              <img src="https://picsum.photos/300/700">
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
   <section class="blog" id="blog">
     <div class="container">
       <h5 class="seperator-head">BLOG</h5>
@@ -179,28 +213,7 @@
       </div>
     </div>
   </section>
-  <section class="slides">
-    <div class="container">
-      <h5 class="seperator-head">Recent Events</h5>
-      <h1 class="seperator-title">Workshops and Events we <br> conducted recently</h1>
-      <div id="image-slider" class="splide" data-aos="fade-up">
-        <div class="splide__track">
-          <ul class="splide__list">
-            <li class="splide__slide">
-              <img src="https://cdn.codechef.com/download/banner/1631861745.png">
-            </li>
-            <li class="splide__slide">
-              <img src="https://cdn.codechef.com/download/banner/1632101520.png">
-            </li>
-            <li class="splide__slide">
-              <img src="https://cdn.codechef.com/download/banner/1632101163.png">
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="contact-us">
+  <section class="contact-us" id="contact">
     <h5 class="seperator-head">Contact Us</h5>
     <h1 class="seperator-title">Get in touch with us</h1>
     <div class="contact-us-wrapper">

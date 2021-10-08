@@ -16,10 +16,6 @@
   margin: 1rem 0;
   color: var(--heading);
 }
-/* 
-.info-wrapper p {
-  max-width: 45ch;
-} */
 
 .info-social a {
   display: block;
@@ -43,7 +39,7 @@
 .form-wrapper input[type="text"],
 .form-wrapper input[type="email"],
 .form-wrapper textarea {
-  border: 1px solid #686868;
+  border: 1px solid #dddddd;
   outline: none;
   padding: 0.1rem 0.5rem;
   max-width: 80vw;
